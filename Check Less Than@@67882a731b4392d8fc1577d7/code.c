@@ -12,7 +12,7 @@ int main() {
         pritnf("True");
     }
     else{
-        prntf("False")
+        printf("False")
     }
     return 0;
 }
