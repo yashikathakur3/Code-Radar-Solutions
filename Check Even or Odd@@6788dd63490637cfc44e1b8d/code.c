@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    int r = a/2;
+    int r = a%2;
     r==0?printf("Even"):printf("Odd");
     return 0;
 }
