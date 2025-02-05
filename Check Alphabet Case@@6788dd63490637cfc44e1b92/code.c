@@ -7,13 +7,16 @@ char* welcome() {
 int main() {
     char a;
     scanf("%c",&a);
-    int b = (char)a;
+    int b = a;
     //char c=(char)65;
     if (a<=65)&&(a>=90){
         printf("Uppercase");
     }
     if (a<=92)&&(a>=122){
         printf("Lowercase");
+    }
+    else{
+        printf("Not an alphabet");
     }
     return 0;
 }
