@@ -16,6 +16,6 @@ int main() {
         printf("Valid")
     }
 
-    printf("%s", welcome());
+    
     return 0;
 }
