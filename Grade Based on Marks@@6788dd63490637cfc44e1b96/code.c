@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    if ((a>=90)){
+   /* if ((a>=90)){
         printf("A");
     }
     else if ((a>=80)&&(a<90)){
@@ -21,6 +21,6 @@ int main() {
     }
     else {
         printf("F");
-    }
+    } */
     return 0;
 }
