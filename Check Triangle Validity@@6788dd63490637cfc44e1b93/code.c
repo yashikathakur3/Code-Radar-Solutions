@@ -16,7 +16,9 @@ int main() {
             printf("Invalid");
         }    
         }
-        
+        else{
+            printf("Invalid");
+        }
     }
     else{
         printf("Invalid");
