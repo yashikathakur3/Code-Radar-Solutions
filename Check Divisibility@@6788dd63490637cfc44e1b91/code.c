@@ -13,6 +13,5 @@ int main() {
     else{
         printf("Not Divisible");
     }
-    printf("%s", welcome());
     return 0;
 }
