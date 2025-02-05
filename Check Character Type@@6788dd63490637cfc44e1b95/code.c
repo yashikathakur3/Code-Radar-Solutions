@@ -8,7 +8,13 @@ int main() {
     char a;
     scanf("%c",&a);
     if ((a==a,e,i,o,u)){
-        printf("Vowel");
+        if ((a==(int)a)){
+            printf("Digit");
+        }
+        else{
+            printf("Special Character");
+        }
+    printf("Vowel");
     }
     else{
         printf("Consonant");
