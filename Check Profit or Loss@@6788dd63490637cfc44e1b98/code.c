@@ -16,6 +16,6 @@ int main() {
     if ((c==s)){
         printf("NO Profit No Loss");
     }
-    printf("%s", welcome());
+    
     return 0;
 }
