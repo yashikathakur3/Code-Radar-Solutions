@@ -7,7 +7,10 @@ char* welcome() {
 int main() {
     int age;
     scanf("%d",&age);
-    if (a<18){
+    if(age>=18){
+        printf("Eligible");
+    }
+    else{
         printf("Not Eligible");
     }
     
