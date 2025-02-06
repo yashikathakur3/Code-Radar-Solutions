@@ -10,6 +10,8 @@ int main() {
     if ((b%a)){
         printf("Yes");
     }
-    
+    else{
+        printf("No");
+    }
     return 0;
 }
