@@ -10,11 +10,10 @@ int main() {
     if((a==b)){
         printf("Equal");
     }
-    else if((a>b)){
-        printf("First");
+    else {
+        printf("%s" , (a>b)? "First" : "Second");
     }
-    else if((a<b)){
-        printf("Second");
-    }
+  
+    
     return 0;
 }
