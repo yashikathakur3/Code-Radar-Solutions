@@ -10,10 +10,15 @@ int main() {
     if((a==b)){
         printf("Equal");
     }
-    else {
+    /*else {
         printf("%s" , (a>b)? "First" : "Second");
+    }*/
+    else if((a>b)){
+        printf("First");
     }
-  
+    else if((a<b)){
+        printf("Second");
+    }
     
     return 0;
 }
