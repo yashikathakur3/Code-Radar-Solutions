@@ -11,7 +11,7 @@ int main() {
     if((c=='+')){
         printf(a+b);
     }
-    else if(c=='-'){
+    /*else if(c=='-'){
         printf(a-b);
     }
      else if(c=='/'){
@@ -22,6 +22,6 @@ int main() {
     }
     else {
         printf("error");
-    }
+    }*/
     return 0;
 }
