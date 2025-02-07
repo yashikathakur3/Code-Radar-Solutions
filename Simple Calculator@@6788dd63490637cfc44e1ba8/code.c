@@ -14,9 +14,15 @@ int main() {
     else if(c=='-'){
         printf("%d",a-b);
     }
-    /*else if(c=='/'){
+    else if(c=='/'){
+        if(c=='/){
+            printf("%d",a/0);
+        }
+        else{
+            printf("error")
+        }
         printf("%d",a/b);
-    }*/
+    }
     else if(c=='*'){
         printf("%d",a*b);
     }
