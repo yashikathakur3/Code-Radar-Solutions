@@ -14,10 +14,7 @@ int main() {
     else if(c=='-'){
         printf("%d",a-b);
     }
-    else if(c=='/'){
-        if(a/0){
-            printf("error");
-        }
+    /*else if(c=='/'){
         printf("%d",a/b);
     }
     else if(c=='*'){
