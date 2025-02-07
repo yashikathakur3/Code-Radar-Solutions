@@ -5,14 +5,14 @@ char* welcome() {
 }
 
 int main() {
-    int a;
+    int a,b;
     scanf("%d %d",&a,&b);
-    //int c=b*b;
-    /*if((a==c)){
+    int c=b*b;
+    if((a==c)){
         printf("Yes");
     }
     else{
         printf("No");
-    }*/
+    }
     return 0;
 }
