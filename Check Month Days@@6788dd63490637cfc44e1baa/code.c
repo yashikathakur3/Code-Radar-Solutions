@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    switch(a):
+    switch(a){
     /*case 1:printf("31");break;
     case 2:printf("February");break;
     case 3:printf("March");break;
@@ -21,6 +21,6 @@ int main() {
     case 11:printf("November");break;
     case 12:printf("December");break;
     default:printf("Invalid");*/
-    
+    }
     return 0;
 }
