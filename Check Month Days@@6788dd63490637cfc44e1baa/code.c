@@ -10,7 +10,7 @@ int main() {
     switch(a){
     case 1:printf("31");break;
     case 2:printf("28");break;
-    case 3:printf("31");break;
+    /*case 3:printf("31");break;
     case 4:printf("30");break;
     case 5:prtintf("31");break;
     case 6:printf("30");break;
@@ -20,7 +20,7 @@ int main() {
     case 10:printf("31");break;
     case 11:printf("30");break;
     case 12:printf("31");break;
-    default:printf("Invalid");
+    default:printf("Invalid");*/
     }
     return 0;
 }
