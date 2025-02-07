@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int a;
+    int a(1-7);
     scanf("%d",&a);
     switch(a){
     case 1:printf("Monday");break;
