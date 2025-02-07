@@ -8,7 +8,7 @@ int main() {
     int a;
     scanf("%d",&a);
     switch(a):
-    case 1:printf("January");break;
+    case 1:printf("31");break;
     case 2:printf("February");break;
     case 3:printf("March");break;
     case 4:printf("April");break;
