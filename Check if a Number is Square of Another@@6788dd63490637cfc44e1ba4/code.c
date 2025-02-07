@@ -6,8 +6,9 @@ char* welcome() {
 
 int main() {
     int a;
-    scanf("%d",&a);
-    if((a==b**)){
+    scanf("%d %d",&a,&b);
+    c=b*b
+    if((a==b)){
         printf("Yes");
     }
     return 0;
