@@ -16,16 +16,14 @@ int main() {
     }
     
     else if(c=='/'){
-        if(c=='/'){
-            printf("error %d",a/0);
-        }
+        
         printf("%d",a/b);
     }
-     /*else if(c=='*'){
+    else if(c=='*'){
         printf("%d",a*b);
     }
     else {
         printf("error");
-    }*/
+    }
     return 0;
 }
