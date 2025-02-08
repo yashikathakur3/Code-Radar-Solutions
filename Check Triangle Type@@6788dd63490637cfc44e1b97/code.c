@@ -11,7 +11,7 @@ int main() {
         printf("Equilateral");
     }
     //else if(()){
-        printf("Isosceles");
+        //printf("Isosceles");
     //}
     
     return 0;
