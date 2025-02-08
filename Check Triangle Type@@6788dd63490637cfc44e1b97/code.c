@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a,b,c;
     scanf("%d",&a,&b,&c);
-    if((a==b)&&(a==c)){
+    if((a,b==c){
         printf("Equilateral");
     }
     //else if(()){
