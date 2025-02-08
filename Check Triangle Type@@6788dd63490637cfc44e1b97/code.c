@@ -10,9 +10,9 @@ int main() {
     if(( a==b==c)){
         printf("Equilateral");
     }
-    else if((a==b<c)){
+    //else if(()){
         printf("Isosceles");
-    }
+    //}
     
     return 0;
 }
