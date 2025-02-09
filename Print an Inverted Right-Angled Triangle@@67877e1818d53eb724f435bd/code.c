@@ -5,8 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    int i,j,N;
-    scanf("%d %d %d",&i,&j,&N);
+    int N;
+    scanf("%d",&N);
     for (i=N;i>0;i--){
       for(j=N;j>0;j--){
              printf("*");
