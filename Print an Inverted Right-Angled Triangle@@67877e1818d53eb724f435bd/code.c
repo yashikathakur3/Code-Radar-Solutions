@@ -9,7 +9,7 @@ int main() {
     scanf("%d %d %d",&i,&j,&N);
     for (i=N;i>0;i--){
       for(j=N;j>0;j--){
-        printf("*");
+             printf("*");
         }
     printf("\n");
     }
