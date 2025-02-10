@@ -8,7 +8,7 @@ int main() {
     int N;
     scanf("%d",&N);
     int sum=0;
-    for(i=0;i<=N;i++){
+    for(int i=0;i<=N;i++){
         sum+=i;
     }
     printf("%d",sum);
