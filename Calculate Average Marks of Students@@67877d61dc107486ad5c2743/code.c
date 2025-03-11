@@ -1,23 +1,27 @@
 #include <stdio.h>
 
+struct students{
+    int roll_number;
+    char name[50];
+    float marks;
+};
 int main() {
-    int num_students;
+    int n;
+    float total_marks =0.0;
 
-    scanf("%d", &num_students);
+    scanf("%d",&n);
+    struct student students[n];
 
-    
-    float marks[num_students];
-    float sum =0.0, average;
+    for(int i=0;i<n;i++){
+        scanf("%d",&students[i].roll_number);
+        scanf("%s",&students[i].name);
+        scanf("%f",&students[i].marks);
 
-    
-    for(int i = 0; i < num_students; i++) {
-        scanf("%f", &marks[i]);
-        sum += marks[i];  
+        total_marks += students[i].marks;
+
     }
-
-    average = sum / num_students;
-
-    printf("Average Marks: %.2f\n", average);
+    
+    printf("Average Marks : %2f\n",total_marks/n);
 
     return 0;
 }
