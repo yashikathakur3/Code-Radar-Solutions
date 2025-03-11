@@ -20,7 +20,7 @@ int main() {
     average = sum / num_students;
 
     // Displaying the average
-    printf("%.2f\n", average);
+    printf("Average Marks: %.2f\n", average);
 
     return 0;
 }
