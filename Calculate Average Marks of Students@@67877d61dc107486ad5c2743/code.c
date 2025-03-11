@@ -21,7 +21,7 @@ int main() {
 
     }
     
-    printf("Average Marks :%.2f\n",total_marks/n);
+    printf("Average Marks: %.2f\n",total_marks/n);
 
     return 0;
 }
