@@ -5,7 +5,7 @@ int main() {
     float passing_score = 50.0;  
 
     
-    printf("Enter the number of students: ");
+    
     scanf("%d", &num_students);
 
     
@@ -13,7 +13,7 @@ int main() {
     int all_passed = 1;  
 
     for(int i = 0; i < num_students; i++) {
-        printf("Enter marks for student %d: ", i + 1);
+    
         scanf("%f", &marks[i]);
 
         
