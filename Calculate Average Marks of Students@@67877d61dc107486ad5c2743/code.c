@@ -7,7 +7,7 @@ int main() {
 
     
     float marks[num_students];
-    float sum =  average;
+    float sum =0.0, average;
 
     
     for(int i = 0; i < num_students; i++) {
