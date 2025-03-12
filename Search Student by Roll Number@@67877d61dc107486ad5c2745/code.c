@@ -30,7 +30,7 @@ int main() {
         scanf("%d", &students[i].rollNo);
        
         scanf(" %[^\n]", students[i].name); 
-        printf("Marks: ");
+        
         scanf("%f", &students[i].marks);
     }
 
