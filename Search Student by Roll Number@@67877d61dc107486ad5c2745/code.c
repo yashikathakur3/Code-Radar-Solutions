@@ -10,9 +10,9 @@ struct Student {
 void searchStudentByRollNo(struct Student students[], int n, int rollNo) {
     for (int i = 0; i < n; i++) {
         if (students[i].rollNo == rollNo) {
-            printf("Roll Number: %d\n", students[i].rollNo);
-            printf("Name: %s\n", students[i].name);
-            printf("Marks: %.2f\n", students[i].marks);
+            printf("Roll Number: %d", students[i].rollNo);
+            printf("Name: %s", students[i].name);
+            printf("Marks: %.2f", students[i].marks);
             return;
         }
     }
@@ -29,7 +29,7 @@ int main() {
         
         scanf("%d", &students[i].rollNo);
        
-        scanf(" %[^\n]", students[i].name); 
+        scanf(" %[^]", students[i].name); 
         
         scanf("%f", &students[i].marks);
     }
