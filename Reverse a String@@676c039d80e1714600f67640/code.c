@@ -2,8 +2,9 @@
 #include <string.h>
 int main(){
     char str[100];
+    strrev (temp);
     scanf("%99s",&str);
-    printf("%s",strrev(str));
+    printf("%s",temp);
 
 
 
