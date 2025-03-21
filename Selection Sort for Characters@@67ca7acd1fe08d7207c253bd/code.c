@@ -21,3 +21,4 @@ void selectionSort(char arr[], int n) {
      }
      printf("\n");
      }
+}
