@@ -22,7 +22,7 @@ int main(){
     for(int m=0;m<=n-k-1;m++){
         printf("*");
     }
-    for(int p=1;p<=n-k-2;p++){
+    for(int p=1;p<=n-k-1;p++){
         printf("*");
     }
     printf("\n");
