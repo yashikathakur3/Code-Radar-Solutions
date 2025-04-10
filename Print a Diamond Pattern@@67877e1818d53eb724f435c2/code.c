@@ -9,7 +9,7 @@ int main(){
     for(int g=0;g<=i;g++){
         printf("*");
     }
-    for(int h=1;h<=i;h++){
+    for(int h=1;h<i;h++){
         printf("*");
     }
     printf("\n");
@@ -19,7 +19,7 @@ int main(){
         for(int l=0;l<k;l++){
             printf(" ");
         }
-    for(int m=0;m<n-k-1;m++){
+    for(int m=0;m<=n-k-1;m++){
         printf("*");
     }
     for(int p=1;p<=n-k-1;p++){
