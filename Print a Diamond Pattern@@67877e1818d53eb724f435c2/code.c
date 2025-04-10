@@ -16,13 +16,13 @@ int main(){
     }
 
     for(int k=0;k<n;k++){
-        for(int l=0;l<k;l++){
+        for(int l=0;l<=k;l++){
             printf(" ");
         }
     for(int m=0;m<=n-k-1;m++){
         printf("*");
     }
-    for(int p=1;p<n-k-1;p++){
+    for(int p=1;p<= n-k-1;p++){
         printf("*");
     }
     printf("\n");
