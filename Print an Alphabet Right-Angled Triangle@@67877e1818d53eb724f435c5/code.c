@@ -8,6 +8,7 @@ int main(){
             printf("%c ",c++);
         }
         printf("\n");
+        c='A';
     }
     return 0;
 }
