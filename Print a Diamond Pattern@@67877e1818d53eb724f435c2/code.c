@@ -15,8 +15,8 @@ int main(){
     printf("\n");
     }
 
-    for(int k=0;k<n;k++){
-        for(int l=0;l<k-1;l++){
+    for(int k=0;k<n-1;k++){
+        for(int l=0;l<=k;l++){
             printf("#");
         }
     for(int m=0;m<n-k-1;m++){
